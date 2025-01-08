@@ -1,3 +1,6 @@
+![snake gif](https://github.com/prateekbisht23/prateekbisht23/blob/output/github-contribution-grid-snake-dark.svg)
+
+
 # 💫 About Me:
 👨‍💻 Prateek Bisht | Aspiring Software Developer
 
@@ -32,4 +35,3 @@ Passionate about coding, data visualization, and building innovative projects. S
 
   
 
-![snake gif](https://github.com/prateekbisht23/prateekbisht23/blob/output/github-contribution-grid-snake-dark.svg)
