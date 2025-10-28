@@ -41,6 +41,10 @@ Keep my coffee meter full:
 
 ---
 
+[![An image of @prateekbisht23's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/prateekbisht23)](https://holopin.io/@prateekbisht23)
+
+---
+
 [![My GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=prateekbisht23&bg_color=00000000&color=ffffff&line=999999&point=ffffff&area=true&area_color=444444&hide_border=true)](https://github.com/prateekbisht23)
 
 ---
