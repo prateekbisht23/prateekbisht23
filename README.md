@@ -1,52 +1,46 @@
-<h2 align="center">Hey! I'm Prateek 🐸</h2>
-<p align="center"><code># dev mode: ON</code></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Prateek Bisht. I build agentic systems that ship code." src="assets/header-light.svg" width="100%">
+</picture>
+
+I'm a software engineer at [Fyscal](https://fyscaltech.com), building **OneXO**: a multi-tenant platform where
+Claude Code, Codex or OpenCode turn a requirement into a reviewed pull request, each agent in its own sandbox.
+The backends underneath are Go and TypeScript.
+
+- One LLM gateway for every model call, with budgets, routing, fallbacks, guardrails and audit logs.
+- 30+ Go APIs serving ~8M requests a month, traced end to end.
+- Cross-service latency from 20+ ms to under 2 ms by moving core services from REST to gRPC.
+
+The day job ships on Bitbucket, out of frame. What's here is what I build on my own time.
+
+### Selected work
+
+| Project | What it does | Built with |
+| --- | --- | --- |
+| [claude-code-microVM](https://github.com/prateekbisht23/claude-code-microVM) | Every chat gets its own Claude Code agent in a KVM microVM that boots in ~0.3 s. State lives on per-chat S3 volumes, so idle VMs die without losing work. | Bun · TypeScript · KVM · EC2 · S3 |
+| [site-auditor](https://github.com/prateekbisht23/site-auditor) | Audits a site like a QA engineer and a frontend dev together: 5 subagents on 3 isolated browsers, findings re-verified and mapped to WCAG and Core Web Vitals. Read-only by design. | Claude Code plugin · Chrome DevTools MCP |
+| [export-runner](https://github.com/prateekbisht23/export-runner) | Parallel FFmpeg export: keyframe-split segments, per-segment retries, resumable jobs and idempotent billing. | Go · FFmpeg |
+| [webview](https://github.com/prateekbisht23/webview) | Turns any mix of files, URLs, text and images into one self-contained, offline HTML page. | Claude Code plugin · Agent Skill |
+| [plan-out](https://github.com/prateekbisht23/plan-out) | Keeps multi-session AI planning consistent: small spec modules, a decision log, and a checker for broken links and stale decisions. | Claude Code skill · Python |
+| [code-focus](https://github.com/prateekbisht23/code-focus) | VS Code extension that maps a file's dependencies and dependents. 40+ Marketplace installs. | TypeScript · VS Code API |
+| [CloudPad](https://github.com/prateekbisht23/CloudPad) | Cross-device text and file sync in under 50 ms. | Django · Supabase · Yjs |
+
+### Open source
+
+- [supabase/supabase#38675](https://github.com/supabase/supabase/pull/38675) — import-data guide updated for the new dashboard UI
+- [freeCodeCamp/freeCodeCamp#62312](https://github.com/freeCodeCamp/freeCodeCamp/pull/62312) — curriculum user-story fix
+- [airbnb/javascript#3153](https://github.com/airbnb/javascript/pull/3153) — ESLint `--ext` note for `.jsx` files
+- [legions-developer/invoicely#56](https://github.com/legions-developer/invoicely/pull/56), [#50](https://github.com/legions-developer/invoicely/pull/50) — invoice status default, light-mode badge fix
+
+### Stack
+
+Go · TypeScript · Python · gRPC · AWS (EC2, S3, SQS) · Terraform · KVM · Docker · OpenTelemetry · Grafana · Claude Code · MCP
 
 ---
 
-### 🙃 The Human Behind the Code
-
-- Flexible like JavaScript's `==`
-- I tinker, explore, contribute — wherever code takes me!!
-- Sometimes front-end, sometimes back-end, sometimes... in a bug's natural habitat 🐛
-- If it runs on code, I’ll probably try building with it!!
-
-> I use '!!' so much, it’s become a part of my syntax!!
----
-
-### ⚙ My Tech Gear
-
-[![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)](https://github.com/openjdk)
-[![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)](https://github.com/tc39)
-[![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)](https://github.com/python)
-[![React](https://img.shields.io/badge/React-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)](https://github.com/facebook/react)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)](https://github.com/tailwindlabs/tailwindcss)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=flat&logo=mysql&logoColor=white)](https://github.com/mysql)
-[![Express](https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB)](https://github.com/expressjs/express)
-[![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=flat&logo=node.js&logoColor=white)](https://github.com/nodejs/node)
-[![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=flat&logo=mongodb&logoColor=white)](https://github.com/mongodb/mongo)
-[![Supabase](https://img.shields.io/badge/Supabase-%2300F7B3.svg?style=flat&logo=supabase&logoColor=black)](https://github.com/supabase/supabase)
-[![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)](https://github.com/vercel)
-
----
-
-### 🔗 Find Me
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-%230077B5.svg?style=flat&logo=person&logoColor=white)](https://portfolio-git-main-prateekbisht23s-projects.vercel.app/)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/__prateek.23_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/prateek-bisht-7a062a258)
-[![Email](https://img.shields.io/badge/Email-%23D14836.svg?style=flat&logo=gmail&logoColor=white)](mailto:prateekbisht.dev@gmail.com)  
-
-Keep my coffee meter full: 
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/prateekbisht)
-
----
-
-[![An image of @prateekbisht23's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/prateekbisht23)](https://holopin.io/@prateekbisht23)
-
----
-
-[![My GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=prateekbisht23&bg_color=00000000&color=ffffff&line=999999&point=ffffff&area=true&area_color=444444&hide_border=true)](https://github.com/prateekbisht23)
-
----
-
-<p align="center"><i>“Everything is possible with enough coffee & console logs!!”</i></p>
+[prateek.bishh.dev](https://prateek.bishh.dev) ·
+[prateekbisht04@gmail.com](mailto:prateekbisht04@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/prateekbisht23/) ·
+[Book a call](https://cal.com/prateek.bisht/15min) ·
+[Instagram](https://www.instagram.com/__prateek.23_/) ·
+<sub>[Buy me a coffee](https://buymeacoffee.com/prateekbisht)</sub>
