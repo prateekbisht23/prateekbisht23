@@ -41,6 +41,7 @@ Go · TypeScript · Python · gRPC · AWS (EC2, S3, SQS) · Terraform · KVM · 
 [prateek.bishh.dev](https://prateek.bishh.dev) ·
 [prateekbisht04@gmail.com](mailto:prateekbisht04@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/prateekbisht23/) ·
+[X](https://x.com/Prateek_Bisht23) ·
 [Book a call](https://cal.com/prateek.bisht/15min) ·
 [Instagram](https://www.instagram.com/__prateek.23_/) ·
 <sub>[Buy me a coffee](https://buymeacoffee.com/prateekbisht)</sub>
